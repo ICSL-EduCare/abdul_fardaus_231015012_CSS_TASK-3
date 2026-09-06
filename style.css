@@ -18,3 +18,164 @@ body {
   color: #f4f7ff;
   overflow-x: hidden;
 }
+
+/* =====================================
+   HERO
+===================================== */
+
+.hero {
+  min-height: 403px;
+  position: relative;
+  overflow: hidden;
+
+  background: radial-gradient(
+    circle at 50% 45%,
+    rgba(15, 28, 59, 0.95),
+    rgba(5, 16, 30, 1) 65%
+  );
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-top: 1px solid rgba(54, 203, 220, 0.1);
+  border-bottom: 1px solid rgba(54, 203, 220, 0.1);
+}
+
+/* large circles */
+
+.hero-circle {
+  position: absolute;
+  border: 1px solid rgba(39, 203, 220, 0.12);
+  border-radius: 50%;
+}
+
+.circle-one {
+  width: 700px;
+  height: 700px;
+  top: -370px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.circle-two {
+  width: 700px;
+  height: 700px;
+  top: -300px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-style: dashed;
+}
+
+/* decorative diamond */
+
+.diamond {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+
+  left: 15%;
+  top: 75px;
+
+  border: 1px solid rgba(42, 203, 221, 0.3);
+
+  transform: rotate(45deg);
+
+  border-radius: 6px;
+}
+
+/* dots */
+
+.hero-dot {
+  position: absolute;
+
+  width: 13px;
+  height: 13px;
+
+  border-radius: 50%;
+
+  background: #26d2e5;
+
+  box-shadow:
+    0 0 12px #26d2e5,
+    0 0 25px rgba(38, 210, 229, 0.5);
+}
+
+.dot-one {
+  left: 40%;
+  bottom: 53px;
+}
+
+.dot-two {
+  right: 20%;
+  bottom: 125px;
+}
+
+/* hero content */
+
+.hero-content {
+  width: 760px;
+  max-width: 90%;
+
+  text-align: center;
+
+  position: relative;
+  z-index: 2;
+}
+
+/* secure label */
+
+.secure-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 10px 24px;
+
+  margin-bottom: 25px;
+
+  border-radius: 4px;
+
+  background: rgba(8, 120, 135, 0.7);
+
+  border: 1px solid #16baca;
+
+  color: #8ee7ef;
+
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+
+  box-shadow: 0 0 15px rgba(25, 201, 220, 0.25);
+}
+
+/* hero heading */
+
+.hero h1 {
+  font-size: 58px;
+  line-height: 1.1;
+
+  font-weight: 800;
+
+  margin-bottom: 20px;
+}
+
+.hero h1 span {
+  background: linear-gradient(90deg, #25d0ce, #149ce7, #8754ef);
+
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  color: transparent;
+}
+
+/* hero paragraph */
+
+.hero-content p {
+  color: #adb9c8;
+
+  font-size: 19px;
+  font-weight: 600;
+
+  line-height: 1.7;
+}
