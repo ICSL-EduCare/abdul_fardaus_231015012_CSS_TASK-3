@@ -517,3 +517,105 @@ body {
 
   box-shadow: 0 10px 30px rgba(25, 201, 220, 0.4);
 }
+
+.network-area {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 650px;
+}
+
+.network-glow {
+  position: absolute;
+  width: 370px;
+  height: 620px;
+  border-radius: 50%;
+  border: 1px solid rgba(22, 201, 220, 0.3);
+  box-shadow:
+    0 0 35px rgba(20, 200, 220, 0.3),
+    inset 0 0 35px rgba(20, 200, 220, 0.12);
+}
+
+.network-card {
+  width: 355px;
+  padding: 48px 42px;
+  position: relative;
+  z-index: 2;
+  background: #121c31;
+  border: 1px solid rgba(35, 194, 215, 0.45);
+  border-radius: 23px;
+  text-align: center;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+}
+
+.network-icon {
+  width: 72px;
+  height: 72px;
+  margin: 0 auto 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 22px 22px 0 0;
+  background: #057e89;
+  color: white;
+  font-size: 45px;
+  box-shadow: 0 0 20px rgba(20, 207, 220, 0.35);
+}
+
+.network-card h2 {
+  font-size: 34px;
+  line-height: 1.1;
+  margin-bottom: 22px;
+}
+
+.network-card p {
+  color: #9fb3c7;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.network-icons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin: 35px 0 16px;
+}
+
+.network-icons div,
+.play-button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #38d3e3;
+  color: #7ee3eb;
+  font-size: 25px;
+  box-shadow: 0 0 12px rgba(39, 206, 224, 0.25);
+}
+
+.play-button {
+  margin: auto;
+  font-size: 18px;
+}
+
+.network-line {
+  height: 1px;
+  background: rgba(126, 153, 177, 0.2);
+  margin: 45px 0 20px;
+}
+
+.direct-ping span {
+  display: block;
+  color: #a4dce5;
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.direct-ping strong {
+  font-size: 17px;
+}
