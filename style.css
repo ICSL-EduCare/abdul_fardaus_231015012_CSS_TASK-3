@@ -619,3 +619,274 @@ body {
 .direct-ping strong {
   font-size: 17px;
 }
+
+/* =====================================
+   RESPONSIVE
+===================================== */
+
+/* TABLET */
+@media (max-width: 900px) {
+  .hero {
+    min-height: 390px;
+  }
+
+  .hero h1 {
+    font-size: 48px;
+  }
+
+  .hero-content p {
+    font-size: 17px;
+  }
+
+  .location-row {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .map-card {
+    height: 380px;
+  }
+
+  .message-wrapper {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .network-area {
+    min-height: 620px;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+  body {
+    background: #0a1224;
+  }
+
+  .hero {
+    min-height: 397px;
+    padding: 45px 22px 40px;
+  }
+
+  .hero-content {
+    max-width: 100%;
+  }
+
+  .secure-label {
+    font-size: 10px;
+    padding: 9px 17px;
+    margin-bottom: 20px;
+  }
+
+  .hero h1 {
+    font-size: 29px;
+    line-height: 1.35;
+    margin-bottom: 17px;
+  }
+
+  .hero-content p {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .diamond {
+    left: 20%;
+    top: 45px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .circle-one {
+    width: 450px;
+    height: 450px;
+    top: -45px;
+  }
+
+  .circle-two {
+    width: 500px;
+    height: 500px;
+    top: -55px;
+  }
+
+  .locations {
+    max-width: none;
+    width: 100%;
+    padding: 36px 22px 0;
+    margin: 0;
+  }
+
+  .location-row {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    margin-bottom: 36px;
+  }
+
+  .office-card {
+    min-height: auto;
+    padding: 25px 20px;
+    border-radius: 14px;
+  }
+
+  .building-icon {
+    font-size: 38px;
+    margin-bottom: 18px;
+  }
+
+  .office-card h2 {
+    font-size: 27px;
+  }
+
+  .office-card h3 {
+    font-size: 13px;
+    margin-bottom: 27px;
+  }
+
+  .contact-item {
+    gap: 10px;
+    margin-bottom: 23px;
+  }
+
+  .contact-icon {
+    flex-basis: 27px;
+    font-size: 17px;
+  }
+
+  .contact-item strong {
+    font-size: 12px;
+  }
+
+  .contact-item p {
+    font-size: 12px;
+    line-height: 1.55;
+  }
+
+  .map-card {
+    height: 340px;
+    border-radius: 14px;
+    padding: 0;
+  }
+
+  .message-section {
+    padding: 25px 22px 55px;
+  }
+
+  .message-wrapper {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .section-label {
+    font-size: 11px;
+  }
+
+  .message-content h2 {
+    font-size: 26px;
+    margin-bottom: 15px;
+  }
+
+  .message-description {
+    font-size: 15px;
+    line-height: 1.65;
+    margin-bottom: 22px;
+  }
+
+  .contact-form {
+    padding: 18px;
+    border-radius: 18px;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .form-group {
+    margin-bottom: 18px;
+  }
+
+  .form-group input {
+    height: 55px;
+  }
+
+  .form-group textarea {
+    min-height: 95px;
+  }
+
+  .form-group label {
+    font-size: 11px;
+  }
+
+  .whatsapp-button {
+    min-height: 74px;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .network-area {
+    width: 100%;
+    min-height: 570px;
+  }
+
+  .network-glow {
+    width: 285px;
+    height: 535px;
+  }
+
+  .network-card {
+    width: 305px;
+    padding: 35px 18px;
+    border-radius: 18px;
+  }
+
+  .network-icon {
+    width: 55px;
+    height: 55px;
+    font-size: 32px;
+    margin-bottom: 13px;
+  }
+
+  .network-card h2 {
+    font-size: 27px;
+    margin-bottom: 17px;
+  }
+
+  .network-card p {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .network-icons {
+    gap: 9px;
+    margin: 28px 0 13px;
+  }
+
+  .network-icons div,
+  .play-button {
+    width: 46px;
+    height: 46px;
+    font-size: 19px;
+  }
+
+  .play-button {
+    font-size: 14px;
+  }
+
+  .network-line {
+    margin: 34px 0 16px;
+  }
+
+  .direct-ping span {
+    font-size: 13px;
+  }
+
+  .direct-ping strong {
+    font-size: 13px;
+    word-break: break-word;
+  }
+}
